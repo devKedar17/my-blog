@@ -22,8 +22,7 @@ const SignInForm = () =>{
     //google pop up signIn
     const logGoogleUser = async () => {
         const {user}= await signInWithGooglePopUp();
-        // console.log(user);
-        // const userDocRef= await createUserDocumentFromAuth(user);
+        navigate("/");
     }
 
     const resetFormFields = () =>{
