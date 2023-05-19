@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 8em;
+    font-style: italic;
+  
+    .heading{
+        font-size: xx-large;
+        height: 50px;
+        background-color: rgb(94, 94, 237);
+        display: block;
+        color: white;
+        padding-right: 2px;
+    }
+    .title{
+        margin: 10px 0;
+        font-size: large;
+        color: black;
+    }
+    .action{
+        float:right ;
+        font-size: large;
+        color: blue;
+        cursor: pointer;
+    }
+    .read_more{
+        float:right ;
+        font-size: large;
+        color: blue;
+        cursor: pointer;
+    }
+    .add_blog{
+        float:right;
+        font-size: large;
+        color: blue;
+        cursor: pointer;
+    }
+    .body{
+        display: flex;
+        flex-direction: row;
+    }
+  
+}

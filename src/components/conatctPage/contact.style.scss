@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 8em;
+    h2{
+        margin: 10px 0;
+    }
+    .db-data-btn{
+        display: flex;
+        float: right;
+    }
+    .db-contact-data{
+        text-align: center;
+        text-decoration: dashed;
+        border: 2px solid grey;
+    }
+   table td{
+        border-bottom: 1px;
+    }
+}
